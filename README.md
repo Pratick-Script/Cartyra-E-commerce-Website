@@ -19,7 +19,7 @@ Built as a frontend project to demonstrate real-world web development skills usi
 | Home | `index.html` | Hero banner, featured products, new arrivals, banners |
 | Shop | `shop.html` | Full product listing with pagination |
 | Single Product | `sproduct.html` | Product detail view with image switcher |
-| Cart | `cart.html` | Shopping cart |
+| Cart | `cart.html` | Shopping cart |Product Quantity increase/Decrease ,Remove
 | Blog | `blog.html` | Fashion blog posts |
 | About | `about.html` | Brand story, app promo video |
 | Contact | `contact.html` | Contact form, map, team details |
