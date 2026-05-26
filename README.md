@@ -1,0 +1,156 @@
+# 🛒 Cartyra — Buy Products Online
+
+> A modern, responsive e-commerce frontend website built with HTML, CSS, and Vanilla JavaScript.
+
+---
+
+## 📌 About The Project
+
+**Cartyra** is a fully responsive multi-page e-commerce website designed for online clothing and fashion shopping. It features a clean, modern UI with smooth interactions, a working shopping cart, coupon system, and a complete set of pages including Home, Shop, Blog, About, Contact, and more.
+
+Built as a frontend project to demonstrate real-world web development skills using only HTML, CSS, and JavaScript — no frameworks required.
+
+---
+
+## 🌐 Live Pages
+
+| Page | File | Description |
+|------|------|-------------|
+| Home | `index.html` | Hero banner, featured products, new arrivals, banners |
+| Shop | `shop.html` | Full product listing with pagination |
+| Single Product | `sproduct.html` | Product detail view with image switcher |
+| Cart | `cart.html` | Shopping cart |
+| Blog | `blog.html` | Fashion blog posts |
+| About | `about.html` | Brand story, app promo video |
+| Contact | `contact.html` | Contact form, map, team details |
+| Login | `login.html` | Login / Register form |
+
+---
+
+## ✨ Features
+
+- ✅ Fully responsive design (mobile, tablet, desktop)
+- ✅ Sticky navigation header
+- ✅ Mobile hamburger menu with slide-in navbar
+- ✅ Product cards with cart button
+- ✅ Single product page with image thumbnail switcher
+- ✅ Shopping cart with:
+- ✅ Google Maps embed on Contact page
+- ✅ Autoplay product promo video on About page
+- ✅ Smooth scroll behavior
+- ✅ Font Awesome 7 icons throughout
+
+---
+
+## 🗂️ Project Structure
+
+```
+cartyra-website/
+│
+├── index.html          # Home page
+├── shop.html           # Shop / all products
+├── sproduct.html       # Single product detail
+├── cart.html           # Shopping cart
+├── blog.html           # Blog page
+├── about.html          # About us page
+├── contact.html        # Contact page
+├── login.html          # Login page
+├── style.css           # Global stylesheet
+├── script.js           # JavaScript (navbar, image switcher, cart logic)
+│
+└── img/
+    ├── products/       # Product images (f1–f8, n1–n8)
+    ├── blog/           # Blog post images
+    ├── banner/         # Banner background images
+    ├── features/       # Feature icon images
+    ├── about/          # About page images & video
+    ├── people/         # Contact team photos
+    ├── pay/            # Payment & app store badges
+    ├── CartyraLogo.png
+    ├── Cartyra.png
+    ├── HeadLogo.jpeg
+    └── HERO.jpg
+```
+
+---
+
+## 🛠️ Built With
+
+- **HTML5** — Semantic structure
+- **CSS3** — Custom styling, Flexbox, Media Queries, Animations
+- **JavaScript (ES6)** — DOM manipulation, event handling, cart logic
+- **Font Awesome 7** — Icons via CDN
+- **Google Fonts** — Spartan font family
+- **Google Maps Embed API** — Contact page map
+
+---
+
+## 🚀 Getting Started
+
+No installation needed. Just clone and open in your browser.
+
+### Clone the repository
+
+```bash
+git clone https://github.com/YOUR-USERNAME/cartyra-website.git
+```
+
+### Open in browser
+
+```bash
+cd cartyra-website
+# Simply open index.html in any browser
+```
+
+Or use the **Live Server** extension in VS Code for the best experience:
+1. Install the **Live Server** extension in VS Code
+2. Right-click `index.html` → **Open with Live Server**
+
+---
+
+
+---
+
+## 📱 Responsive Breakpoints
+
+| Breakpoint | Target |
+|------------|--------|
+| `> 799px` | Desktop / Laptop |
+| `≤ 799px` | Tablets |
+| `≤ 477px` | Mobile phones |
+
+---
+
+## 📸 Screenshots
+
+> *(Add screenshots of your pages here after uploading to GitHub)*
+<img width="1879" height="869" alt="image" src="https://github.com/user-attachments/assets/ed2adf37-003d-4e23-b545-436d14dd0fb8" />
+
+```
+Home Page       →  index.html
+Shop Page       →  shop.html
+Cart Page       →  cart.html
+Contact Page    →  contact.html
+```
+
+---
+
+## 👤 Author
+
+**Pratick Majhi**
+
+- 📸 Instagram: [@myself_pratick](https://www.instagram.com/myself_pratick/)
+- 📘 Facebook: [pratik.majhi.98](https://www.facebook.com/pratik.majhi.98)
+- 🎵 YouTube: [@8amlofi](https://www.youtube.com/@8amlofi)
+- 📧 Email: support@cartyra.com
+
+---
+
+## 📄 License
+
+This project is for educational and portfolio purposes.
+© 2026 Cartyra. All Rights Reserved.
+
+---
+
+> *Designed & Developed with ❤️ by Pratick Majhi*
