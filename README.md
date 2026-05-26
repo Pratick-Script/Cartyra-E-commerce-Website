@@ -121,10 +121,10 @@ Or use the **Live Server** extension in VS Code for the best experience:
 
 ---
 
-## 📸 Screenshots
+## 📸 Screenshots<img width="1917" height="869" alt="image" src="https://github.com/user-attachments/assets/f0e918b3-2663-4bc3-9ca6-baf120f46d9d" />
 
-> *(Add screenshots of your pages here after uploading to GitHub)*
-<img width="1879" height="869" alt="image" src="https://github.com/user-attachments/assets/ed2adf37-003d-4e23-b545-436d14dd0fb8" />
+
+
 
 ```
 Home Page       →  index.html
