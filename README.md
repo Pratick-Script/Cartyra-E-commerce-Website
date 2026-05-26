@@ -92,7 +92,7 @@ No installation needed. Just clone and open in your browser.
 ### Clone the repository
 
 ```bash
-git clone https://github.com/YOUR-USERNAME/cartyra-website.git
+git clone https://github.com/Pratick-Script/cartyra-website.git
 ```
 
 ### Open in browser
