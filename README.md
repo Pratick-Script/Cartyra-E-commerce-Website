@@ -23,22 +23,23 @@ Built as a frontend project to demonstrate real-world web development skills usi
 | Blog | `blog.html` | Fashion blog posts |
 | About | `about.html` | Brand story, app promo video |
 | Contact | `contact.html` | Contact form, map, team details |
-| Login | `login.html` | Login / Register form |
+| Login | `login.html` | Sign in form with links to register |
+| Register | `register.html` | Register form with links to login |
 
 ---
 
 ## ✨ Features
 
-- ✅ Fully responsive design (mobile, tablet, desktop)
-- ✅ Sticky navigation header
-- ✅ Mobile hamburger menu with slide-in navbar
-- ✅ Product cards with cart button
-- ✅ Single product page with image thumbnail switcher
-- ✅ Shopping cart with:
-- ✅ Google Maps embed on Contact page
-- ✅ Autoplay product promo video on About page
-- ✅ Smooth scroll behavior
-- ✅ Font Awesome 7 icons throughout
+- **📱 Fully Responsive Design**: Mobile, tablet, and desktop layout compatibility with a sticky navigation header and slide-in sidebar menu.
+- **🛒 Dynamic Shopping Cart**: Client-side state persistence using `localStorage`. Quick-add items directly from product cards or customize order sizes and quantities from the details page.
+- **🎨 Dynamic Details Page (`sproduct.html`)**: Product cards link dynamically using URL parameters (`?id=ID`) to look up products in a localized javascript database and update main/gallery images, descriptions, categories (`Home / Men` vs. `Home / Women`), and select elements.
+- **🌈 Size & Color Selector**: Allows choosing specific sizes (S, M, L, XL, XXL) and color configurations before adding to the cart, automatically grouping identical selections.
+- **🏷️ Navbar Cart Badges**: Responsive badge counts display on both mobile and desktop bag icons indicating total cart quantities with modern bump animation alerts.
+- **🎟️ Coupon discount system**: Supports application of discount promo codes (`SAVE10` for 10% off and `CARTYRA20` for 20% off) updating order summaries in real-time.
+- **🔍 Sitewide Search Engine**: Intercepts search form inputs from the header of any page to filter products dynamically on the Shop page, displaying search count banners, clear search triggers, and a custom empty state message if no products match.
+- **📝 User Registration workflow**: Cohesive register page (`register.html`) styled after the dark login wrapper with client-side password matching, mock submit handling, and redirect.
+- **🔔 Premium custom alerts**: Toast notification overlays for system feedback (e.g. success, info, warnings) without using browser alerts.
+- **🎥 Autoplay Media & Maps API**: Auto-plays product video on About page and maps search coordinate mapping on the Contact page.
 
 ---
 
@@ -125,6 +126,7 @@ Or use the **Live Server** extension in VS Code for the best experience:
 
 
 
+> ![alt text](image.png)
 
 ```
 Home Page       →  index.html
